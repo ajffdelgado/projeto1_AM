@@ -7,7 +7,7 @@ Created on Wed Oct 10 11:29:51 2018
 import nb
 
 
-filename = 'D:\\Meus Documentos\\UFPE\\Mestrado\\Semestre 2\\AM\\projeto 1\\seg_cat.csv'
+filename = 'D:\\Meus Documentos\\UFPE\\Mestrado\\Semestre 2\\AM\\projeto 1\\seg.csv'
 splitRatio = 0.8
 dataset = nb.loadCsv(filename)
 datasetSplit = nb.cross_validation_split(dataset,folds=10)
